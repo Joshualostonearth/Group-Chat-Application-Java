@@ -11,13 +11,15 @@ ChatApplicationBeginsHere.java: Main entry point for the application, starting t
 
 ChatServer.java: Manages the server-side logic, including client connections, message broadcasting, and port binding.
 
-DatabaseManager.java: Handles database interactions for user authentication and chat history persistence.
+DatabaseManager.java: Handles database interactions for user authentication,account creation and chat history persistence.
 
 ChatWindow.java: Implements the graphical user interface (GUI) for each chat client, displaying messages, sending input, and connecting to the server.
 
 CreateAccount.java: Provides a separate window for creating new user accounts in the database.
 
 LoginWindow.java: Handles user login attempts by validating credentials against the database.
+
+CreateWindow.java: Handles creating the user's account.
 
 **Disclaimer:**
 
